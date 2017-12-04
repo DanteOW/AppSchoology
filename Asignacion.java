@@ -80,6 +80,14 @@ public class Asignacion {
         this.publicacion = publicacion;
     }
 
+    public Date getLimite() {
+        return limite;
+    }
+
+    public void setLimite(Date limite) {
+        this.limite = limite;
+    }
+
     public double getPuntos() {
         return puntos;
     }
